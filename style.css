@@ -56,7 +56,7 @@ header {
 
 .btn{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 390px;
     height: 6vh;
     width: 30vw;
@@ -102,7 +102,7 @@ text-align: center;
 .searchbar button{
    position: absolute;
    right:540px;
-   top: 173px;
+   top: 163px;
    background-color: rgb(252, 252, 254);
  border: rgb(252, 252, 254) ;
 opacity: 0.2;
@@ -147,7 +147,7 @@ font-size: 50px;
   display: grid;
   grid-template-columns: repeat(4,100px);
   gap: 40px;
-  margin-top: 57px;
+  margin-top: 47px;
    margin-left: 80px;
  
  
