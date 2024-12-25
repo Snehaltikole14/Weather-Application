@@ -142,3 +142,101 @@ font-size: 50px;
   color: black;
 }
 
+
+
+/* ResponsiveNess */
+@media (max-width: 768px) {
+  .container {
+    height: auto;
+    width: 90%;
+    margin-top: 122;
+    margin-left: 35px;
+  }
+
+  .head {
+    font-size: 2.5rem;
+  }
+
+  .searchbar input {
+    width: 80%;
+    margin-left: 10%;
+    font-size: 31px;
+  }
+
+  .searchbar button {
+    right: 17%;
+    top: 24%;
+    height: 5vh;
+    width: 5vw;
+  }
+
+  .weather-report {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .head {
+margin-top: 50px;
+    font-size: 2rem;
+  }
+
+  .container {
+    width: 100%;
+   margin-left: 1px;
+  }
+
+  .searchbar input {
+    width: 80%;
+    margin-left: 50px;
+    font-size: 25px;
+  }
+
+  .searchbar button {
+    right: 15%;
+    top: 32%;
+  }
+
+  .weather-report {
+    grid-template-columns: repeat(2,100px);
+  margin-left: 109px;
+  }
+}
+@media (max-width: 286px) {
+  header {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .head {
+margin-top: 50px;
+    font-size: 2rem;
+  }
+
+  .container {
+    width: 100%;
+   margin-left: 1px;
+  }
+
+  .searchbar input {
+    width: 90%;
+    margin-left: 10px;
+    font-size: 25px;
+  }
+
+  .searchbar button {
+    right: 15%;
+    top: 23%;
+  }
+
+  .weather-report {
+    grid-template-columns: repeat(2,100px);
+  margin-left: 15px;
+  }
+}
+
